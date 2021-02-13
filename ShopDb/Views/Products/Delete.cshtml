@@ -1,0 +1,46 @@
+﻿@model ShopDb.Models.Products
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Products</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Productname)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Productname)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Unitprice)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Unitprice)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Discontinued)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Discontinued)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Category)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Category.Categoryname)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Productid" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>
