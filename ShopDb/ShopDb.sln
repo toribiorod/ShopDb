@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopDb", "ShopDb.csproj", "{2547787C-0666-4E25-AC57-E1BBDCEF72DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConceptualModel", "..\ConceptualModel\ConceptualModel.csproj", "{21D3DC31-C639-4C82-8033-FF5B01E7C216}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2547787C-0666-4E25-AC57-E1BBDCEF72DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2547787C-0666-4E25-AC57-E1BBDCEF72DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2547787C-0666-4E25-AC57-E1BBDCEF72DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21D3DC31-C639-4C82-8033-FF5B01E7C216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21D3DC31-C639-4C82-8033-FF5B01E7C216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21D3DC31-C639-4C82-8033-FF5B01E7C216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21D3DC31-C639-4C82-8033-FF5B01E7C216}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
